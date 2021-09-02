@@ -168,17 +168,7 @@ const animationTimeline = () => {
             },
             0.2
         )
-        .from(
-            ".lydia-dp",
-            0.5, {
-                scale: 3.5,
-                opacity: 0,
-                x: 25,
-                y: -25,
-                rotationZ: -45
-            },
-            "-=2"
-        )
+        
         .from(".hat", 0.5, {
             x: -100,
             y: 350,
